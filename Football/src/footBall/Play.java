@@ -18,10 +18,10 @@ public class Play {
 			message += " for a gain " + this.yards + " yards";
 		}
 		else if (yards < 0) {
-			message += " for a loss " + this.yards + " yards";
+			message += " for a loss of " + this.yards + " yards";
 		}
 		else {
-			message += " no gain " + this.yards;
+			message += " no gain of " + this.yards;
 		}
 		
 		return message;
