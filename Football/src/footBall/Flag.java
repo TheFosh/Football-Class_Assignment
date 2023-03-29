@@ -1,5 +1,8 @@
 package footBall;
 
+/*
+ * Created a new type of exception for when a play is mishandled
+ */
 public class Flag extends Exception {
 	
 	private int yards;

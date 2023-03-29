@@ -1,5 +1,9 @@
 package footBall;
 
+/*
+ * Referee objects use their flag value to have that number of possible exceptions
+ * to throw. Each penalty has a 20% chance to occur.
+ */
 public class Referee {
 	private int flags;
 	

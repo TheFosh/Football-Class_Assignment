@@ -1,5 +1,8 @@
 package footBall;
 
+/*
+ * Simulates a play that gets either a loss, a gain, or no gain of yards.
+ */
 public class Play {
 	
 	private int yards;
@@ -10,10 +13,10 @@ public class Play {
 		this.decription = des;
 	}
 	
+	//Checks if the yards is a loss or gain depending if the amount is pos. or neg.
 	public String toString() {
 		String message = this.decription;
 		
-		//Checks if the yards is a loss or gain depending if the amount is pos. or neg.
 		if(yards > 0) {
 			message += " for a gain of " + this.yards + " yards";
 		}
