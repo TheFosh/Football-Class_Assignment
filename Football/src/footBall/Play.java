@@ -13,6 +13,7 @@ public class Play {
 	public String toString() {
 		String message = this.decription;
 		
+		//Checks if the yards is a loss or gain depending if the amount is pos. or neg.
 		if(yards > 0) {
 			message += " a gain " + this.yards + " yards";
 		}
