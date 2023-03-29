@@ -22,7 +22,7 @@ public class FootballGame {
 			this.lineJudge.watchPlay();
 		} 
 		catch(Flag f){
-			System.out.println("!!! FLAG ON THE PLAY !!! " + f + " Replay Down.");
+			System.out.println("!!! FLAG ON THE PLAY !!! " + f.getMessage() + " Replay Down.");
 			
 			return f.getYards();
 		}
