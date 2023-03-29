@@ -15,13 +15,13 @@ public class Play {
 		
 		//Checks if the yards is a loss or gain depending if the amount is pos. or neg.
 		if(yards > 0) {
-			message += " for a gain " + this.yards + " yards";
+			message += " for a gain of " + this.yards + " yards";
 		}
 		else if (yards < 0) {
 			message += " for a loss of " + this.yards + " yards";
 		}
 		else {
-			message += " no gain of " + this.yards;
+			message += " for no gain";
 		}
 		
 		return message;
