@@ -18,7 +18,7 @@ public class Play {
 			message += " for a gain of " + this.yards + " yards";
 		}
 		else if (yards < 0) {
-			message += " for a loss of " + this.yards + " yards";
+			message += " for a loss of " + Math.abs(this.yards) + " yards";
 		}
 		else {
 			message += " for no gain";

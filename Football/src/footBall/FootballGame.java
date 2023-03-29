@@ -8,7 +8,7 @@ public class FootballGame {
 		this.lineJudge = new Referee();
 	}
 	
-	public void sertLineJudge(Referee r){
+	public void setLineJudge(Referee r){
 		this.lineJudge = r;
 	}
 	

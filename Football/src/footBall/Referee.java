@@ -13,16 +13,14 @@ public class Referee {
 		
 		if(this.flags != 0) {
 			
-			//Holding
 			if(r == 1) {
 				this.flags--;
-				throw new Flag("Holding", "Offence", -10);
+				throw new Flag("Holding", "Offence", -10); //Holding penalty
 			}
 			
-			//Offsides
 			else if (r == 2) {
 				this.flags--;
-				throw new Flag("Offsides", "Defence", 5);
+				throw new Flag("Offsides", "Defence", 5); //Offsides penalty
 			}
 		}
 	}
